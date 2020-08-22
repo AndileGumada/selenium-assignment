@@ -1,7 +1,6 @@
 package pages;
 
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
@@ -24,8 +23,9 @@ public class DropdownPage {
 	}
 	public List<String> getSelectedOption() {
 		List<WebElement> selectedElements = findDropDownElement().getAllSelectedOptions();
-		return selectedElements.stream().map(e -> e.getText()).collect(Collectors.toList());
-	}
+        return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
+        }
+	
 	public Select findDropDownElement() {
 		return new Select(driver.findElement(dropdown));
 	}

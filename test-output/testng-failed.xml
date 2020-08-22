@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="HoverTests">
+      <class name="keys.KeysTests">
         <methods>
           <include name="setUp"/>
+          <include name="testBackspace"/>
           <include name="tearDown"/>
-          <include name="testHoverUser1"/>
         </methods>
-      </class> <!-- HoverTests -->
+      </class> <!-- keys.KeysTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

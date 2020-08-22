@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
 <properties>
-    <maven.complier.source>8.0.242</maven.complier.source>
-    <maven.complier.targer>8.0.242</maven.complier.targer>
+    <maven.complier.source>1.11</maven.complier.source>
+    <maven.complier.targer>1.11 </maven.complier.targer>
 </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
