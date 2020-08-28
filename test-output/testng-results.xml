@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-22T12:18:33Z" name="Default suite" finished-at="2020-08-22T12:20:11Z" duration-ms="97987">
+  <suite started-at="2020-08-28T00:38:26Z" name="Default suite" finished-at="2020-08-28T00:38:41Z" duration-ms="15182">
     <groups>
     </groups>
-    <test started-at="2020-08-22T12:18:33Z" name="Default test" finished-at="2020-08-22T12:20:11Z" duration-ms="97987">
-      <class name="keys.KeysTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:keys.KeysTests@3697186]" started-at="2020-08-22T14:18:33Z" name="setUp" finished-at="2020-08-22T14:18:40Z" duration-ms="7160" status="PASS">
+    <test started-at="2020-08-28T00:38:26Z" name="Default test" finished-at="2020-08-28T00:38:41Z" duration-ms="15182">
+      <class name="exercises.chapter6.slider.SliderTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:26Z" name="setUp" finished-at="2020-08-28T02:38:39Z" duration-ms="13618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPi()[pri:0, instance:keys.KeysTests@3697186]" started-at="2020-08-22T14:18:40Z" name="testPi" finished-at="2020-08-22T14:20:11Z" duration-ms="90686" status="PASS">
+        <test-method signature="testSliderToWwholeNumber()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:39Z" name="testSliderToWwholeNumber" finished-at="2020-08-28T02:38:41Z" duration-ms="1469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPi -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:keys.KeysTests@3697186]" started-at="2020-08-22T14:20:11Z" name="tearDown" finished-at="2020-08-22T14:20:11Z" duration-ms="107" status="PASS">
+        </test-method> <!-- testSliderToWwholeNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:41Z" name="tearDown" finished-at="2020-08-28T02:38:41Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- keys.KeysTests -->
+      </class> <!-- exercises.chapter6.slider.SliderTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -30,4 +30,9 @@ public class HomePage {
 	public void clickLink(String linkText) {
 		driver.findElement(By.linkText(linkText)).click();
 	}
+	
+	public HorizontalSliderPage clickHorizontalPage() {
+		clickLink("Horizontal Slider");
+		return new HorizontalSliderPage(driver);
+	}
 }
