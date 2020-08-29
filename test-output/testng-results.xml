@@ -2,24 +2,28 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-28T00:38:26Z" name="Default suite" finished-at="2020-08-28T00:38:41Z" duration-ms="15182">
+  <suite started-at="2020-08-29T05:47:55Z" name="Default suite" finished-at="2020-08-29T05:48:13Z" duration-ms="17871">
     <groups>
     </groups>
-    <test started-at="2020-08-28T00:38:26Z" name="Default test" finished-at="2020-08-28T00:38:41Z" duration-ms="15182">
-      <class name="exercises.chapter6.slider.SliderTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:26Z" name="setUp" finished-at="2020-08-28T02:38:39Z" duration-ms="13618" status="PASS">
+    <test started-at="2020-08-29T05:47:55Z" name="Default test" finished-at="2020-08-29T05:48:13Z" duration-ms="17871">
+      <class name="exercises.chapter7.contextmenu.ContextMenuTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:47:55Z" name="setUp" finished-at="2020-08-29T07:48:11Z" duration-ms="16361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderToWwholeNumber()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:39Z" name="testSliderToWwholeNumber" finished-at="2020-08-28T02:38:41Z" duration-ms="1469" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:11Z" name="goHome" finished-at="2020-08-29T07:48:12Z" duration-ms="483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSliderToWwholeNumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:exercises.chapter6.slider.SliderTests@6531a794]" started-at="2020-08-28T02:38:41Z" name="tearDown" finished-at="2020-08-28T02:38:41Z" duration-ms="81" status="PASS">
+        </test-method> <!-- goHome -->
+        <test-method signature="textRightClick()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:12Z" name="textRightClick" finished-at="2020-08-29T07:48:13Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textRightClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:13Z" name="tearDown" finished-at="2020-08-29T07:48:13Z" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- exercises.chapter6.slider.SliderTests -->
+      </class> <!-- exercises.chapter7.contextmenu.ContextMenuTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
