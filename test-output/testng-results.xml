@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-29T05:47:55Z" name="Default suite" finished-at="2020-08-29T05:48:13Z" duration-ms="17871">
+  <suite started-at="2020-08-31T11:49:43Z" name="Default suite" finished-at="2020-08-31T11:50:30Z" duration-ms="46943">
     <groups>
     </groups>
-    <test started-at="2020-08-29T05:47:55Z" name="Default test" finished-at="2020-08-29T05:48:13Z" duration-ms="17871">
-      <class name="exercises.chapter7.contextmenu.ContextMenuTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:47:55Z" name="setUp" finished-at="2020-08-29T07:48:11Z" duration-ms="16361" status="PASS">
+    <test started-at="2020-08-31T11:49:43Z" name="Default test" finished-at="2020-08-31T11:50:30Z" duration-ms="46943">
+      <class name="wait.WaitTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:wait.WaitTests@3eb91815]" started-at="2020-08-31T13:49:43Z" name="setUp" finished-at="2020-08-31T13:50:21Z" duration-ms="38529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:11Z" name="goHome" finished-at="2020-08-29T07:48:12Z" duration-ms="483" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:wait.WaitTests@3eb91815]" started-at="2020-08-31T13:50:22Z" name="goHome" finished-at="2020-08-31T13:50:22Z" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="textRightClick()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:12Z" name="textRightClick" finished-at="2020-08-29T07:48:13Z" duration-ms="807" status="PASS">
+        <test-method signature="testWaitUntilHidden()[pri:0, instance:wait.WaitTests@3eb91815]" started-at="2020-08-31T13:50:22Z" name="testWaitUntilHidden" finished-at="2020-08-31T13:50:30Z" duration-ms="7715" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[Hello World! expected:<[Hello World!]> but was:<[Loaded text incorrect]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: Hello World! expected:<[Hello World!]> but was:<[Loaded text incorrect]>
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at wait.WaitTests.testWaitUntilHidden(WaitTests.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- textRightClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:exercises.chapter7.contextmenu.ContextMenuTests@3eb91815]" started-at="2020-08-29T07:48:13Z" name="tearDown" finished-at="2020-08-29T07:48:13Z" duration-ms="204" status="PASS">
+        </test-method> <!-- testWaitUntilHidden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wait.WaitTests@3eb91815]" started-at="2020-08-31T13:50:30Z" name="tearDown" finished-at="2020-08-31T13:50:30Z" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- exercises.chapter7.contextmenu.ContextMenuTests -->
+      </class> <!-- wait.WaitTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

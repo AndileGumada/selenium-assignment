@@ -3,13 +3,14 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="AlertsTests">
+      <class name="wait.WaitTests">
         <methods>
+          <include name="goHome"/>
           <include name="setUp"/>
-          <include name="name"/>
+          <include name="testWaitUntilHidden"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- AlertsTests -->
+      </class> <!-- wait.WaitTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
