@@ -56,4 +56,12 @@ public class HomePage {
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
     }
+    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+		clickLink("Large & Deep DOM");
+		return new LargeAndDeepDomPage(driver);
+	}
+    public InfiniteScrollPage clickInfiniteScroll(){
+		clickLink("Infinite Scroll");
+		return new InfiniteScrollPage(driver);
+	}
 }
