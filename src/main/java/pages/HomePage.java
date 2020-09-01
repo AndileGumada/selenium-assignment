@@ -56,6 +56,10 @@ public class HomePage {
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
     }
+	public MultipleWindowsPage clickMultipleWindows(){
+		clickLink("Multiple Windows");
+		return new MultipleWindowsPage (driver);
+	}
     public LargeAndDeepDomPage clickLargeAndDeepDom(){
 		clickLink("Large & Deep DOM");
 		return new LargeAndDeepDomPage(driver);
